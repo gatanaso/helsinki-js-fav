@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>helsinki-js-fav test</title>
+
+  <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="../node_modules/wct-browser-legacy/browser.js"></script>
+
+  <script type="module" src="../helsinki-js-fav.js"></script>
+</head>
+
+<body>
+
+  <test-fixture id="basicFixture">
+    <template>
+      <helsinki-js-fav></helsinki-js-fav>
+    </template>
+  </test-fixture>
+
+  <script type="module">
+    describe('helsinki-js-fav', () => {
+
+      it('should set faved to true', () => {
+        // given
+        let helsinkiJsFav = fixture('basicFixture');
+
+        // when
+        helsinkiJsFav.toggle();
+
+        // then
+        expect(helsinkiJsFav.faved).to.be.true;
+      });
+
+      it('should set faved to false', () => {
+        // given
+        let helsinkiJsFav = fixture('basicFixture');
+        helsinkiJsFav.faved = true;
+
+        // when
+        helsinkiJsFav.toggle();
+
+        // then
+        expect(helsinkiJsFav.faved).to.be.false;
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

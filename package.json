@@ -1,0 +1,15 @@
+{
+  "name": "helsinki-js-fav",
+  "description": "Web component demo for the Helsinki JS Meetup",
+  "main": "helsinki-js-fav.js",
+  "dependencies": {
+    "@polymer/iron-icon": "^3.0.1",
+    "@polymer/iron-icons": "^3.0.1",
+    "@polymer/polymer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  }
+}
