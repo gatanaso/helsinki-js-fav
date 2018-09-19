@@ -2,6 +2,8 @@
 
 An example web component built for the Helsinki JS Meetup.
 
+[Slides ↗](https://drive.google.com/file/d/1IJYNmIMwu9dcEfzUV435wVFi-hvMqXMK/view)
+
 ## Install the Polymer-CLI
 
 Make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) and npm (packaged with [Node.js](https://nodejs.org)) installed.
