@@ -2,6 +2,8 @@
 
 An example web component built for the Helsinki JS Meetup.
 
+![helsinki-js-fav](https://user-images.githubusercontent.com/15094658/47918116-95c62500-de79-11e8-84ee-006115a5e6fc.gif)
+
 [Slides ↗](https://drive.google.com/file/d/1IJYNmIMwu9dcEfzUV435wVFi-hvMqXMK/view)
 
 ## Install the Polymer-CLI
